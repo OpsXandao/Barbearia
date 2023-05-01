@@ -48,38 +48,3 @@ em strong{
 .imagem-beneficios{
     width: 50%;
 }
-
-/*Produtos*/
-
-.titulo-produtos{
-    background-color: gray;
-}
-
-header.titulo-produtos {
-    padding: 20px 0;
-}
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
-.nav-produtos {
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
-
-nav .li-produtos {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav .link-produtos {
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
