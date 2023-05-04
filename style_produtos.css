@@ -108,11 +108,16 @@ form{
     margin: 40px 0;
 }
 
-form label, form p{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
+
+fieldset{
+    border: none;
+}
+
 
 .input-padrao{
     display: block;
@@ -123,5 +128,37 @@ form label, form p{
 
 .checkbox{
     margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s background;   
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: crimson;
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
 
